@@ -1,0 +1,270 @@
+body {
+    background-color: #1B123A;
+    color: white;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header {
+    background-color: #0BA8BC;
+    padding: 2px 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 70px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    background-color: #D633BA;
+    padding: 10px 30px;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    transition: background 0.3s ease;
+    font-family: Chau Philomene One;
+    font-weight: 100;
+    font-size: 21px;
+}
+
+nav ul li a:hover {
+    background-color: #b52698;
+}
+
+
+/* TÍTULO E BOTÕES */
+.topo {
+    text-align: center;
+    padding: 20px;
+}
+
+.topo h1 {
+    font-family: 'Chau Philomene One', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+
+.botoes button {
+    background-color: #D633BA;
+    color: white;
+    padding: 12px 25px;
+    margin: 10px;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Chau Philomene One', sans-serif;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+/* BLOCO TEXTO + IMAGEM */
+.bloco {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    gap: 30px;
+}
+
+.bloco .texto {
+    flex: 1;
+}
+
+.bloco .texto h2 {
+    font-family: 'Chau Philomene One', sans-serif;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.bloco .texto p {
+    line-height: 1.6;
+}
+
+.bloco .imagem img {
+    max-width: 750px;
+    border-radius: 10px;
+}
+
+.ph {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin: 20px 0;
+}
+
+.ph .escala img {
+    max-width: 100%;
+    height: auto;
+}
+
+.ph .seta img {
+    width: 290px; 
+    margin-top: 20px; /* ajusta para baixo */
+}
+
+.topo button:hover {
+    background-color: #b52698;
+    transition: background 0.3s ease;
+}
+
+
+.thumb {
+    background-color: #9ff8ff;
+    width: 40%;
+}
+
+.info {
+    padding: 10px;
+    font-size: 0.8rem;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.subir-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.subir-btn {
+    background-color: #D633BA;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: 'Chau Philomene One', sans-serif;
+
+    position: fixed;
+    right: 20px;   
+    bottom: 20px;  
+    
+}
+
+.subir-btn:hover {
+    background-color: #b52698;
+    transition: background 0.3s ease;
+}
+
+.video-section {
+  text-align: center;
+  color: white;
+  font-family: Arial, sans-serif;
+  background-color: #1a0d3a; /* fundo escuro */
+  padding: 40px 20px;
+}
+
+.video-section h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.video-section p {
+  max-width: 600px;
+  margin: 0 auto 25px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Botões dos tópicos */
+.topics {
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.topics button {
+  background: #ce31b1;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 25px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+.topics button:hover {
+  background: #a02585;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.video-container iframe {
+  width: 800px;   
+  height: 450px;  
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.5); 
+}
+
+
+.arrow {
+  font-size: 50px;  /* seta maior */
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.arrow:hover {
+  transform: scale(1.3);
+}
+
+
+.video-section h2 {
+    font-family: Chau Philomene One;
+    font-weight: 100;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.botoes-2 button {
+    background-color: #D633BA;
+    color: white;
+    padding: 12px 25px;
+    margin: 10px;
+    border: none;
+    border-radius: 40px;
+    font-family: 'Chau Philomene One', sans-serif;
+    font-size: 1.7rem;
+    cursor: pointer;
+
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 50px;
+    padding: 12px 35px; 
+}
+
+.botoes-2 button:hover {
+    background-color: #b52698;
+    transition: background 0.3s ease;
+}
+
+
+
+
+
