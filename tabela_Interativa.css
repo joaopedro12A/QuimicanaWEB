@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, Chau Philomene One;
+    color: white;
+    background-size: cover;
+    background-color: #1B123A;
+}
+
+header {
+    background-color: #0BA8BC;
+    padding: 2px 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 70px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    background-color: #D633BA;
+    padding: 10px 30px;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    transition: background 0.3s ease;
+    font-family: Chau Philomene One;
+    font-weight: 100;
+    font-size: 21px;
+}
+
+nav ul li a:hover {
+    background-color: #b52698;
+}

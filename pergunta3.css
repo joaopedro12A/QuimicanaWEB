@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Chau Philomene One;
+    color: white;
+    background-size: cover;
+    background-color: #1B123A;
+}
+
+header {
+    background-color: #0BA8BC;
+    padding: 2px 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 70px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    background-color: #D633BA;
+    padding: 10px 30px;
+    border-radius: 25px;
+    color: white;
+    transition: background 0.3s ease;
+    font-family: Chau Philomene One;
+    font-weight: 100;
+    font-size: 21px;
+}
+
+nav ul li a:hover {
+    background-color: #b52698;
+}
+
+nav button {
+  background-color: #0FE0FA;
+  color: #080637;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+nav button.active {
+  background-color: #FF5E5E;
+  color: white;
+}
+
+
+main {
+  max-width: 900px;  /* maior largura */
+  margin: 40px auto;
+  text-align: center;
+  padding: 40px 30px;  /* mais espaçamento interno */
+  font-size: 1.3rem;   /* texto maior */
+}
+
+.options-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.option {
+  background-color: #0FE0FA;
+  color: #080637;
+  padding: 20px 25px;  
+  text-align: left;
+  cursor: pointer;
+  font-size: 1.5rem;  
+  display: flex;
+  align-items: center;
+}
+
+.option span {
+  display: inline-block;
+  background-color: white;
+  color: #080637;
+  width: 35px;  /* maior círculo */
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 50%;
+  font-weight: 700;
+  margin-right: 15px;
+  font-size: 1rem;
+}
+
+
+.option.correct {
+  background-color: #00FF26;
+  color: black;
+}
+
+.option.incorrect {
+  background-color: #FF5E5E;
+  color: white;
+}
+
+.next-btn {
+  position: absolute;
+  bottom: 20px; 
+  right: 20px;   
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: none;  
+  padding: 5px;   
+
+}
+
+.next-btn img {
+  width: 70px;   
+  height: auto;
+  display: block;
+}
