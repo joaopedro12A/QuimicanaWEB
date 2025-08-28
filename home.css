@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Chau Philomene One', sans-serif;
+  background: url("./Fundo_Quimica.png") no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+}
+
+header {
+    background-color: #0BA8BC;
+    padding: 2px 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 70px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    background-color: #D633BA;
+    padding: 10px 30px;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    transition: background 0.3s ease;
+    font-family: 'Chau Philomene One', sans-serif;
+    font-weight: 100;
+    font-size: 21px;
+}
+
+nav ul li a:hover {
+    background-color: #b52698;
+}
+
+
+h1 {
+  font-size: 4.6em;  
+  margin-bottom: 15px;
+  font-weight: 100;   
+}
+
+.cientistas {
+  max-width: 520px;   /
+  margin-bottom: 25px;
+}
+
+p {
+  font-size: 1.6rem; 
+  margin-bottom: 40px;
+}
+
+.btn {
+  background-color: #D633BA;
+  color: white;
+  border: none;
+  padding: 20px 90px;  
+  font-size: 2.1rem;   
+  border-radius: 40px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: 'Chau Philomene One', sans-serif;
+}
+
+.btn:hover {
+  background-color: #b52698;
+}
