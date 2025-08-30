@@ -253,3 +253,9 @@ nav ul li a:hover {
     transition: background 0.3s ease;
 }
 
+.bolinha div a {
+    text-decoration: none; 
+}
+
+
+
