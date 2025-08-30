@@ -75,3 +75,7 @@ p {
 .btn:hover {
   background-color: #b52698;
 }
+
+.btn {
+  text-decoration: none;
+}

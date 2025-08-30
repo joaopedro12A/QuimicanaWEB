@@ -111,3 +111,7 @@ nav ul li a:hover {
     cursor: pointer;
 }
 
+.circulos a {
+    text-decoration: none;
+}
+

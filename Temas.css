@@ -6,6 +6,7 @@
 
 body {
     font-family: Roboto, Chau Philomene One;
+    background: url("./Fundo_Quimica.png") no-repeat center center fixed;
     color: white;
     background-size: cover;
     background-color: #1B123A;

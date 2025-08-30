@@ -188,3 +188,44 @@ main {
 .popup-buttons button:hover {
   background: #b52698;
 }
+
+.popup-buttons button,
+.popup-buttons a {
+  flex: 1;
+  max-width: 7.5rem;
+  padding: 0.75rem 0;
+  border: none;
+  border-radius: 3.125rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background: #D633BA;
+  color: #fff;
+  transition: background 0.3s ease;
+  font-family: Chau Philomene One;
+  font-weight: 100;
+  text-align: center;
+  text-decoration: none; /* tira o sublinhado */
+  display: inline-block; /* faz o link se comportar como botão */
+}
+
+.popup-buttons button:hover,
+.popup-buttons a:hover {
+  background: #b52698;
+}
+
+#progress-container {
+  width: 100%;
+  height: 15px;
+  background-color: #0BA8BC; /* cor de fundo */
+  border-radius: 10px;
+  margin-bottom: 1rem; /* espaço entre barra e pergunta */
+  overflow: hidden;
+}
+
+#progress-bar {
+  height: 100%;
+  width: 0%; /* começa vazio */
+  background-color: #0FE0FA; /* cor do progresso */
+  transition: width 0.5s ease; /* animação suave */
+}
