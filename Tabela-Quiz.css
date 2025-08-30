@@ -13,7 +13,7 @@ body {
 
 header {
     background-color: #0BA8BC;
-    padding: 2px 0;
+    padding: 0.125rem 0;
 }
 
 nav {
@@ -27,20 +27,20 @@ nav {
 nav ul {
     list-style: none;
     display: flex;
-    gap: 70px;
+    gap: 4.375rem;
 }
 
 nav ul li a {
     text-decoration: none;
     background-color: #D633BA;
-    padding: 10px 30px;
-    border-radius: 25px;
+    padding: 0.625rem 1.875rem;
+    border-radius: 1.5625rem;
     color: white;
     font-weight: bold;
     transition: background 0.3s ease;
     font-family: Chau Philomene One;
     font-weight: 100;
-    font-size: 21px;
+    font-size: 1.3125rem;
 }
 
 nav ul li a:hover {
@@ -51,7 +51,7 @@ nav ul li a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px;
+    padding: 3.125rem;
 }
 
 .texto {
@@ -60,34 +60,34 @@ nav ul li a:hover {
 }
 
 .texto h1 {
-    font-size: 70px;
-    margin-bottom: 15px;
+    font-size: 4.375rem;
+    margin-bottom: 0.9375rem;
     font-weight: 100;
 }
 
 .texto h3 {
-    font-size: 35px;
+    font-size: 2.1875rem;
     text-transform: uppercase;
-    margin-bottom: 8px;
+    margin-bottom: 0.5rem;
     font-weight: 100;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .texto p {
-    font-size: 28px;
-    margin-bottom: 20px;
+    font-size: 1.75rem;
+    margin-bottom: 1.25rem;
     font-weight: 100;
-    margin-bottom: 60px;
+    margin-bottom: 3.75rem;
 }
 
 .btn-iniciar {
     display: inline-block;
     background-color: #D633BA;
-    padding: 15px 200px;
-    border-radius: 5px;
+    padding: 0.9375rem 12.5rem;
+    border-radius: 0.3125rem;
     color: white;
     text-decoration: none;
-    font-size: 33px;
+    font-size: 2.0625rem;
     transition: background 0.3s ease;
 }
 
@@ -96,7 +96,7 @@ nav ul li a:hover {
 }
 
 .icone img {
-    width: 400px;
+    width: 25rem;
     height: auto;
-    transform: translateX(-60px);
+    transform: translateX(-3.75rem);
 }

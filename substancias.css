@@ -5,10 +5,9 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-
 header {
     background-color: #0BA8BC;
-    padding: 2px 0;
+    padding: 0.125rem 0;
 }
 
 nav {
@@ -22,59 +21,56 @@ nav {
 nav ul {
     list-style: none;
     display: flex;
-    gap: 70px;
+    gap: 4.375rem;
 }
 
 nav ul li a {
     text-decoration: none;
     background-color: #D633BA;
-    padding: 10px 30px;
-    border-radius: 25px;
+    padding: 0.625rem 1.875rem;
+    border-radius: 1.5625rem;
     color: white;
     font-weight: bold;
     transition: background 0.3s ease;
     font-family: Chau Philomene One;
     font-weight: 100;
-    font-size: 21px;
+    font-size: 1.3125rem;
 }
 
 nav ul li a:hover {
     background-color: #b52698;
 }
 
-
-/* TÍTULO E BOTÕES */
 .topo {
     text-align: center;
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 .topo h1 {
     font-family: 'Chau Philomene One', sans-serif;
     font-size: 3rem;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     font-weight: 100;
 }
 
 .botoes button {
     background-color: #D633BA;
     color: white;
-    padding: 12px 25px;
-    margin: 10px;
+    padding: 0.75rem 1.5625rem;
+    margin: 0.625rem;
     border: none;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     font-family: 'Chau Philomene One', sans-serif;
     font-size: 1.7rem;
     cursor: pointer;
 }
 
-/* BLOCO TEXTO + IMAGEM */
 .bloco {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px;
-    gap: 30px;
+    padding: 2.5rem;
+    gap: 1.875rem;
 }
 
 .bloco .texto {
@@ -92,15 +88,15 @@ nav ul li a:hover {
 }
 
 .bloco .imagem img {
-    max-width: 750px;
-    border-radius: 10px;
+    max-width: 46.875rem;
+    border-radius: 0.625rem;
 }
 
 .ph {
     display: flex;
     flex-direction: column; 
     align-items: center;
-    margin: 20px 0;
+    margin: 1.25rem 0;
 }
 
 .ph .escala img {
@@ -109,8 +105,8 @@ nav ul li a:hover {
 }
 
 .ph .seta img {
-    width: 290px; 
-    margin-top: 20px; /* ajusta para baixo */
+    width: 18.125rem;
+    margin-top: 1.25rem;
 }
 
 .topo button:hover {
@@ -118,14 +114,13 @@ nav ul li a:hover {
     transition: background 0.3s ease;
 }
 
-
 .thumb {
     background-color: #9ff8ff;
     width: 40%;
 }
 
 .info {
-    padding: 10px;
+    padding: 0.625rem;
     font-size: 0.8rem;
     color: black;
     display: flex;
@@ -135,23 +130,21 @@ nav ul li a:hover {
 
 .subir-container {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 .subir-btn {
     background-color: #D633BA;
     color: white;
     border: none;
-    padding: 10px 25px;
-    border-radius: 40px;
+    padding: 0.625rem 1.5625rem;
+    border-radius: 2.5rem;
     cursor: pointer;
     font-size: 1rem;
     font-family: 'Chau Philomene One', sans-serif;
-
     position: fixed;
-    right: 20px;   
-    bottom: 20px;  
-    
+    right: 1.25rem;
+    bottom: 1.25rem;
 }
 
 .subir-btn:hover {
@@ -160,111 +153,102 @@ nav ul li a:hover {
 }
 
 .video-section {
-  text-align: center;
-  color: white;
-  font-family: Arial, sans-serif;
-  background-color: #1a0d3a; /* fundo escuro */
-  padding: 40px 20px;
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    background-color: #1a0d3a;
+    padding: 2.5rem 1.25rem;
 }
 
 .video-section h2 {
-  font-size: 28px;
-  margin-bottom: 15px;
+    font-size: 1.75rem;
+    margin-bottom: 0.9375rem;
 }
 
 .video-section p {
-  max-width: 600px;
-  margin: 0 auto 25px;
-  font-size: 14px;
-  line-height: 1.5;
-  color: white;
-  font-family: 'Roboto', sans-serif;
+    max-width: 37.5rem;
+    margin: 0 auto 1.5625rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
-/* Botões dos tópicos */
 .topics {
-  margin-bottom: 25px;
-  display: flex;
-  justify-content: center;
-  gap: 15px;
+    margin-bottom: 1.5625rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.9375rem;
 }
 
 .topics button {
-  background: #ce31b1;
-  border: none;
-  border-radius: 25px;
-  padding: 10px 25px;
-  font-weight: bold;
-  color: white;
-  cursor: pointer;
-  font-size: 16px;
-  transition: background 0.3s ease;
+    background: #ce31b1;
+    border: none;
+    border-radius: 1.5625rem;
+    padding: 0.625rem 1.5625rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
 }
 
 .topics button:hover {
-  background: #a02585;
+    background: #a02585;
 }
 
 .video-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+    margin-top: 1.875rem;
 }
 
 .video-container iframe {
-  width: 800px;   
-  height: 450px;  
-  border-radius: 10px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.5); 
+    width: 50rem;
+    height: 28.125rem;
+    border-radius: 0.625rem;
+    box-shadow: 0 0.25rem 0.9375rem rgba(0,0,0,0.5);
 }
 
-
 .arrow {
-  font-size: 50px;  /* seta maior */
-  color: white;
-  background: none;
-  border: none;
-  cursor: pointer;
-  transition: transform 0.2s;
+    font-size: 3.125rem;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s;
 }
 
 .arrow:hover {
-  transform: scale(1.3);
+    transform: scale(1.3);
 }
-
 
 .video-section h2 {
     font-family: Chau Philomene One;
     font-weight: 100;
     font-size: 3rem;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .botoes-2 button {
     background-color: #D633BA;
     color: white;
-    padding: 12px 25px;
-    margin: 10px;
+    padding: 0.75rem 2.1875rem;
+    margin: 0.625rem;
     border: none;
-    border-radius: 40px;
+    border-radius: 2.5rem;
     font-family: 'Chau Philomene One', sans-serif;
     font-size: 1.7rem;
     cursor: pointer;
-
-    gap: 20px;
+    gap: 1.25rem;
     justify-content: center;
-    margin-bottom: 50px;
-    padding: 12px 35px; 
+    margin-bottom: 3.125rem;
+    padding: 0.75rem 2.1875rem;
 }
 
 .botoes-2 button:hover {
     background-color: #b52698;
     transition: background 0.3s ease;
 }
-
-
-
-
-

@@ -13,7 +13,7 @@ body {
 
 header {
     background-color: #0BA8BC;
-    padding: 2px 0;
+    padding: 0.125rem 0;
 }
 
 nav {
@@ -27,20 +27,20 @@ nav {
 nav ul {
     list-style: none;
     display: flex;
-    gap: 70px;
+    gap: 4.375rem;
 }
 
 nav ul li a {
     text-decoration: none;
     background-color: #D633BA;
-    padding: 10px 30px;
-    border-radius: 25px;
+    padding: 0.625rem 1.875rem;
+    border-radius: 1.5625rem;
     color: white;
     font-weight: bold;
     transition: background 0.3s ease;
     font-family: Chau Philomene One;
     font-weight: 100;
-    font-size: 21px;
+    font-size: 1.3125rem;
 }
 
 nav ul li a:hover {
@@ -49,27 +49,27 @@ nav ul li a:hover {
 
 .intro {
     text-align: center;
-    margin-top: 40px;
-    padding: 0 20px;
+    margin-top: 2.5rem;
+    padding: 0 1.25rem;
 }
 
 .intro h1 {
-    font-size: 35px;
+    font-size: 2.1875rem;
     font-family: Chau Philomene One;
     font-weight: 100;
 }
 
 .intro p {
-    margin-top: 10px;
+    margin-top: 0.625rem;
     line-height: 1.5;
 }
 
 .equipe {
     background-color: rgba(11, 168, 188, 0.85);
-    margin: 40px auto;
-    padding: 55px;
+    margin: 2.5rem auto;
+    padding: 3.4375rem;
     width: 55%;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     text-align: center;
 }
 
@@ -77,8 +77,8 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 20px;
-    margin-bottom: 15px;
+    gap: 1.25rem;
+    margin-bottom: 0.9375rem;
 }
 
 .membro {
@@ -86,18 +86,17 @@ nav ul li a:hover {
 }
 
 .membro img {
-    width: 100px;
-    height: 100px;
+    width: 6.25rem;
+    height: 6.25rem;
     border-radius: 50%;
     object-fit: cover;
 }
 
 .membro p {
-    margin-top: 7px;
-    
+    margin-top: 0.4375rem;
 }
 
 .descricao {
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 1.4;
 }

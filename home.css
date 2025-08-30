@@ -10,7 +10,7 @@ body {
 
 header {
     background-color: #0BA8BC;
-    padding: 2px 0;
+    padding: 0.125rem 0;
 }
 
 nav {
@@ -24,50 +24,49 @@ nav {
 nav ul {
     list-style: none;
     display: flex;
-    gap: 70px;
+    gap: 4.375rem;
 }
 
 nav ul li a {
     text-decoration: none;
     background-color: #D633BA;
-    padding: 10px 30px;
-    border-radius: 25px;
+    padding: 0.625rem 1.875rem;
+    border-radius: 1.5625rem;
     color: white;
     font-weight: bold;
     transition: background 0.3s ease;
     font-family: 'Chau Philomene One', sans-serif;
     font-weight: 100;
-    font-size: 21px;
+    font-size: 1.3125rem;
 }
 
 nav ul li a:hover {
     background-color: #b52698;
 }
 
-
 h1 {
   font-size: 4.6em;  
-  margin-bottom: 15px;
+  margin-bottom: 0.9375rem;
   font-weight: 100;   
 }
 
 .cientistas {
-  max-width: 520px;   /
-  margin-bottom: 25px;
+  max-width: 32.5rem;
+  margin-bottom: 1.5625rem;
 }
 
 p {
   font-size: 1.6rem; 
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
 }
 
 .btn {
   background-color: #D633BA;
   color: white;
   border: none;
-  padding: 20px 90px;  
-  font-size: 2.1rem;   
-  border-radius: 40px;
+  padding: 1.25rem 5.625rem;
+  font-size: 2.1rem;
+  border-radius: 2.5rem;
   cursor: pointer;
   transition: 0.3s;
   font-family: 'Chau Philomene One', sans-serif;

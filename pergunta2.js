@@ -96,3 +96,26 @@ botaoProximo.onclick = () => {
 
 // Inicia o quiz
 mostrarPergunta();
+
+// --- POPUP DE CONFIRMAÇÃO DE SAÍDA ---
+const popup = document.getElementById("popup-sair");
+const btnConfirmar = document.getElementById("confirmar-sair");
+const btnCancelar = document.getElementById("cancelar-sair");
+
+// Intercepta os cliques no menu de navegação
+document.querySelectorAll("nav ul li a").forEach(link => {
+  link.addEventListener("click", function(e) {
+    e.preventDefault(); 
+    popup.style.display = "flex"; 
+  });
+});
+
+// Se o usuário confirmar
+btnConfirmar.addEventListener("click", () => {
+  window.location.href = "index.html"; 
+});
+
+// Se o usuário cancelar
+btnCancelar.addEventListener("click", () => {
+  popup.style.display = "none"; 
+});
